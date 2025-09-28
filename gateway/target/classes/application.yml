@@ -1,0 +1,34 @@
+server:
+  port: 8080
+spring:
+  application.name: api-gateway
+  cloud:
+    gateway:
+      server:
+        webflux:
+          routes:
+            - id: products
+              uri: http://localhost:8082
+              predicates:
+                - Path=/api/products/**
+              filters:
+                - StripPrefix=1
+            - id: customers
+              uri: http://localhost:8081
+              predicates:
+                - Path=/api/customers/**
+              filters:
+                - StripPrefix=1
+            - id: orders
+              uri: http://localhost:8083
+              predicates:
+                - Path=/api/orders/**
+              filters:
+                - StripPrefix=1
+          trusted-proxies: '127\.0\.0\.1|::1'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info,metrics"
