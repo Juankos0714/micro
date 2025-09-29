@@ -1,0 +1,50 @@
+[
+  {
+    "purchaseId": 1,
+    "clientId": 1,
+    "itemId": 1,
+    "quantity": 2,
+    "purchaseDate": "2025-09-28T19:15:05",
+    "status": "COMPLETED"
+  },
+  {
+    "purchaseId": 2,
+    "clientId": 2,
+    "itemId": 3,
+    "quantity": 1,
+    "purchaseDate": "2025-09-28T19:15:05",
+    "status": "PENDING"
+  },
+  {
+    "purchaseId": 3,
+    "clientId": 1,
+    "itemId": 4,
+    "quantity": 1,
+    "purchaseDate": "2025-09-28T19:15:05",
+    "status": "SHIPPED"
+  },
+  {
+    "purchaseId": 4,
+    "clientId": 1,
+    "itemId": 1,
+    "quantity": 2,
+    "purchaseDate": "2025-09-28T19:22:05",
+    "status": "COMPLETED"
+  },
+  {
+    "purchaseId": 5,
+    "clientId": 2,
+    "itemId": 3,
+    "quantity": 1,
+    "purchaseDate": "2025-09-28T19:22:05",
+    "status": "PENDING"
+  },
+  {
+    "purchaseId": 6,
+    "clientId": 1,
+    "itemId": 4,
+    "quantity": 1,
+    "purchaseDate": "2025-09-28T19:22:05",
+    "status": "SHIPPED"
+  }
+]

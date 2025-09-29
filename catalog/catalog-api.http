@@ -1,0 +1,31 @@
+
+### Get all items
+GET http://localhost:9002/api/catalog/items
+
+### Get item by ID
+GET http://localhost:9002/api/catalog/items/3
+
+### Create a new item
+POST http://localhost:9002/api/catalog/items
+Content-Type: application/json
+
+{
+  "itemName": "Teclado Mecánico RGB",
+  "unitPrice": 350000.00,
+  "category": "Accesorios",
+  "stockQuantity": 75
+}
+
+### Update an item
+PUT http://localhost:9002/api/catalog/items/1
+Content-Type: application/json
+
+{
+  "itemName": "Laptop Dell Inspiron 15 (Nueva Generación)",
+  "unitPrice": 2600000.00,
+  "category": "Computadores",
+  "stockQuantity": 20
+}
+
+### Delete an item
+DELETE http://localhost:9002/api/catalog/items/1

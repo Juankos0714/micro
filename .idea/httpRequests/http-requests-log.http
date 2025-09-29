@@ -1,0 +1,263 @@
+POST http://localhost:9002/api/catalog/items
+Content-Type: application/json
+Content-Length: 118
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "itemName": "Teclado Mecánico RGB",
+  "unitPrice": 350000.00,
+  "category": "Accesorios",
+  "stockQuantity": 75
+}
+
+<> 2025-09-29T063159.201.json
+
+###
+
+GET http://localhost:9002/api/catalog/items/3
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-29T063149.200.json
+
+###
+
+GET http://localhost:9002/api/catalog/items/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:9002/api/catalog/items/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:9002/api/catalog/items/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+GET http://localhost:9002/api/catalog/items
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-29T063032.200.json
+
+###
+
+DELETE http://localhost:9003/api/sales/purchases/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:9003/api/sales/purchases/1
+Content-Type: application/json
+Content-Length: 115
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "clientId": 1,
+  "itemId": 1,
+  "quantity": 3,
+  "purchaseDate": "2025-09-28T12:00:00",
+  "status": "SHIPPED"
+}
+
+<> 2025-09-28T192230.200.json
+
+###
+
+POST http://localhost:9003/api/sales/purchases
+Content-Type: application/json
+Content-Length: 51
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "clientId": 1,
+  "itemId": 2,
+  "quantity": 5
+}
+
+<> 2025-09-28T192226.201.json
+
+###
+
+GET http://localhost:9003/api/sales/purchases/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-28T192223.200.json
+
+###
+
+GET http://localhost:9003/api/sales/purchases
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-28T192217.200.json
+
+###
+
+GET http://localhost:9001/api/clients/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+DELETE http://localhost:9001/api/clients/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:9001/api/clients/1
+Content-Type: application/json
+Content-Length: 128
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "fullName": "Cliente Actualizado",
+  "emailAddress": "cliente.actualizado@example.com",
+  "phoneNumber": "+57-311-7654321"
+}
+
+<> 2025-09-28T192134.200.json
+
+###
+
+POST http://localhost:9001/api/clients
+Content-Type: application/json
+Content-Length: 126
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "fullName": "Nuevo Cliente de Prueba",
+  "emailAddress": "nuevo.cliente@example.com",
+  "phoneNumber": "+57-310-1234567"
+}
+
+<> 2025-09-28T192131.201.json
+
+###
+
+GET http://localhost:9001/api/clients/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-28T192128.200.json
+
+###
+
+GET http://localhost:9001/api/clients
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-28T192123.200.json
+
+###
+
+GET http://localhost:9002/api/catalog/items/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+###
+
+DELETE http://localhost:9002/api/catalog/items/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+DELETE http://localhost:9002/api/catalog/items/2
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+PUT http://localhost:9002/api/catalog/items/1
+Content-Type: application/json
+Content-Length: 143
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "itemName": "Laptop Dell Inspiron 15 (Nueva Generación)",
+  "unitPrice": 2600000.00,
+  "category": "Computadores",
+  "stockQuantity": 20
+}
+
+<> 2025-09-28T192011.200.json
+
+###
+
+POST http://localhost:9002/api/catalog/items
+Content-Type: application/json
+Content-Length: 118
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+{
+  "itemName": "Teclado Mecánico RGB",
+  "unitPrice": 350000.00,
+  "category": "Accesorios",
+  "stockQuantity": 75
+}
+
+<> 2025-09-28T192006.201.json
+
+###
+
+GET http://localhost:9002/api/catalog/items/1
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-28T192004.200.json
+
+###
+
+GET http://localhost:9002/api/catalog/items
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2025.2.2
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+
+<> 2025-09-28T191959.200.json
+
+###
+

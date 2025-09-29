@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS clients (
+  client_id BIGINT PRIMARY KEY AUTO_INCREMENT,
+  full_name VARCHAR(200) NOT NULL,
+  email_address VARCHAR(255) NOT NULL UNIQUE,
+  phone_number VARCHAR(20)
+);

@@ -1,0 +1,5 @@
+io\biztech\catalog\config\CatalogRoutes.class
+io\biztech\catalog\service\CatalogHandler.class
+io\biztech\catalog\entity\Item.class
+io\biztech\catalog\dao\ItemRepository.class
+io\biztech\catalog\CatalogApplication.class

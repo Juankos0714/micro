@@ -1,0 +1,58 @@
+[
+  {
+    "itemId": 1,
+    "itemName": "Laptop Dell Inspiron 15",
+    "unitPrice": 2450000.00,
+    "category": "Computadores",
+    "stockQuantity": 25
+  },
+  {
+    "itemId": 2,
+    "itemName": "Mouse Inalámbrico Logitech",
+    "unitPrice": 89000.00,
+    "category": "Accesorios",
+    "stockQuantity": 150
+  },
+  {
+    "itemId": 3,
+    "itemName": "Auriculares Sony WH-1000XM4",
+    "unitPrice": 890000.00,
+    "category": "Audio",
+    "stockQuantity": 45
+  },
+  {
+    "itemId": 4,
+    "itemName": "Smartphone Samsung Galaxy S23",
+    "unitPrice": 3200000.00,
+    "category": "Móviles",
+    "stockQuantity": 30
+  },
+  {
+    "itemId": 5,
+    "itemName": "Laptop Dell Inspiron 15",
+    "unitPrice": 2450000.00,
+    "category": "Computadores",
+    "stockQuantity": 25
+  },
+  {
+    "itemId": 6,
+    "itemName": "Mouse Inalámbrico Logitech",
+    "unitPrice": 89000.00,
+    "category": "Accesorios",
+    "stockQuantity": 150
+  },
+  {
+    "itemId": 7,
+    "itemName": "Auriculares Sony WH-1000XM4",
+    "unitPrice": 890000.00,
+    "category": "Audio",
+    "stockQuantity": 45
+  },
+  {
+    "itemId": 8,
+    "itemName": "Smartphone Samsung Galaxy S23",
+    "unitPrice": 3200000.00,
+    "category": "Móviles",
+    "stockQuantity": 30
+  }
+]

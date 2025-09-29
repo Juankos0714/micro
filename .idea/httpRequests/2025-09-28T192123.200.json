@@ -1,0 +1,20 @@
+[
+  {
+    "clientId": 1,
+    "fullName": "María González Pérez",
+    "emailAddress": "maria.gonzalez @techcorp.com",
+    "phoneNumber": "+57-300-1234567"
+  },
+  {
+    "clientId": 2,
+    "fullName": "Carlos Eduardo Silva",
+    "emailAddress": "carlos.silva @innovate.co",
+    "phoneNumber": "+57-301-9876543"
+  },
+  {
+    "clientId": 3,
+    "fullName": "Ana Lucía Martínez",
+    "emailAddress": "ana.martinez @digitalworld.net",
+    "phoneNumber": "+57-302-5555555"
+  }
+]

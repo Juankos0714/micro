@@ -1,0 +1,31 @@
+
+### Get all purchases
+GET http://localhost:9003/api/sales/purchases
+
+### Get purchase by ID
+GET http://localhost:9003/api/sales/purchases/1
+
+### Create a new purchase
+POST http://localhost:9003/api/sales/purchases
+Content-Type: application/json
+
+{
+  "clientId": 1,
+  "itemId": 2,
+  "quantity": 5
+}
+
+### Update a purchase
+PUT http://localhost:9003/api/sales/purchases/1
+Content-Type: application/json
+
+{
+  "clientId": 1,
+  "itemId": 1,
+  "quantity": 3,
+  "purchaseDate": "2025-09-28T12:00:00",
+  "status": "SHIPPED"
+}
+
+### Delete a purchase
+DELETE http://localhost:9003/api/sales/purchases/2

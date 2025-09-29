@@ -1,0 +1,29 @@
+
+### Get all clients
+GET http://localhost:9001/api/clients
+
+### Get client by ID
+GET http://localhost:9001/api/clients/2
+
+### Create a new client
+POST http://localhost:9001/api/clients
+Content-Type: application/json
+
+{
+  "fullName": "Nuevo Cliente de Prueba",
+  "emailAddress": "nuevo.cliente@example.com",
+  "phoneNumber": "+57-310-1234567"
+}
+
+### Update a client
+PUT http://localhost:9001/api/clients/1
+Content-Type: application/json
+
+{
+  "fullName": "Cliente Actualizado",
+  "emailAddress": "cliente.actualizado@example.com",
+  "phoneNumber": "+57-311-7654321"
+}
+
+### Delete a client
+DELETE http://localhost:9001/api/clients/2

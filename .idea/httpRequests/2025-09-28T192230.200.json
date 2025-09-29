@@ -1,0 +1,8 @@
+{
+  "purchaseId": 1,
+  "clientId": 1,
+  "itemId": 1,
+  "quantity": 3,
+  "purchaseDate": "2025-09-28T12:00:00",
+  "status": "SHIPPED"
+}

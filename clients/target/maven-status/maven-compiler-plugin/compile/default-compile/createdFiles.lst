@@ -1,0 +1,5 @@
+io\biztech\clients\controller\ClientHandler.class
+io\biztech\clients\model\Client.class
+io\biztech\clients\repository\ClientRepository.class
+io\biztech\clients\ClientsApplication.class
+io\biztech\clients\config\ClientRoutes.class

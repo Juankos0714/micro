@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:
+  mysql-commerce:
+    image: mysql:8.0
+    container_name: commerce-database
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass123
+      MYSQL_DATABASE: commerce_clients_db
+      MYSQL_USER: biztech_admin
+      MYSQL_PASSWORD: secure123!
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_commerce_data:/var/lib/mysql
+      - ./mysql-setup.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - commerce-network
+
+  clients-service:
+    build:
+      context: ./clients
+      dockerfile: Dockerfile
+    container_name: clients-microservice
+    ports:
+      - "9001:9001"
+    depends_on:
+      - mysql-commerce
+    environment:
+      SPRING_R2DBC_URL: r2dbc:mysql://mysql-commerce:3306/commerce_clients_db
+      SPRING_R2DBC_USERNAME: biztech_admin
+      SPRING_R2DBC_PASSWORD: secure123!
+    networks:
+      - commerce-network
+
+  catalog-service:
+    build:
+      context: ./catalog
+      dockerfile: Dockerfile
+    container_name: catalog-microservice
+    ports:
+      - "9002:9002"
+    depends_on:
+      - mysql-commerce
+    environment:
+      SPRING_R2DBC_URL: r2dbc:mysql://mysql-commerce:3306/commerce_catalog_db
+      SPRING_R2DBC_USERNAME: biztech_admin
+      SPRING_R2DBC_PASSWORD: secure123!
+    networks:
+      - commerce-network
+
+  sales-service:
+    build:
+      context: ./sales
+      dockerfile: Dockerfile
+    container_name: sales-microservice
+    ports:
+      - "9003:9003"
+    depends_on:
+      - mysql-commerce
+    environment:
+      SPRING_R2DBC_URL: r2dbc:mysql://mysql-commerce:3306/commerce_sales_db
+      SPRING_R2DBC_USERNAME: biztech_admin
+      SPRING_R2DBC_PASSWORD: secure123!
+    networks:
+      - commerce-network
+
+volumes:
+  mysql_commerce_data:
+
+networks:
+  commerce-network:
+    driver: bridge

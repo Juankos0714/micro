@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f09ef61-396a-41ff-b9c2-42a5fbcd4bfb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/catalog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/data-mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/src/main/resources/schema-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/java/com/example/customers/CustomersApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/java/com/example/customers/domain/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/java/com/example/customers/repo/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/java/com/example/customers/web/CustomerHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/java/com/example/customers/web/CustomerRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/resources/data-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/resources/data-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/classes/data-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/resources/schema-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/main/resources/schema-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/clients/target/classes/schema-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/test/java/com/example/customers/CustomerRoutesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/src/test/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/clients/src/test/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/target/classes/com/example/customers/CustomersApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/target/classes/com/example/customers/domain/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/target/classes/com/example/customers/repo/CustomerRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/target/classes/com/example/customers/web/CustomerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/target/classes/com/example/customers/web/CustomerRouter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/target/classes/data-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/target/classes/data-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/target/classes/schema-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/customers/target/classes/schema-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/java/com/example/gateway/GatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/test/java/com/example/gateway/GatewayRoutingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/com/example/gateway/GatewayApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/surefire-reports/TEST-com.example.gateway.GatewayRoutingTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/surefire-reports/com.example.gateway.GatewayRoutingTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/test-classes/com/example/gateway/GatewayRoutingTest$TestRoutes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/test-classes/com/example/gateway/GatewayRoutingTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysql-init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/main/java/com/example/orders/OrdersApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/main/java/com/example/orders/domain/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/main/java/com/example/orders/repo/OrderRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/main/java/com/example/orders/web/OrderHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/main/java/com/example/orders/web/OrderRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/main/resources/data-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/main/resources/data-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/main/resources/schema-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/main/resources/schema-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/test/java/com/example/orders/OrderRoutesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/src/test/resources/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/target/classes/com/example/orders/OrdersApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/target/classes/com/example/orders/domain/Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/target/classes/com/example/orders/repo/OrderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/target/classes/com/example/orders/web/OrderHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/target/classes/com/example/orders/web/OrderRouter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/target/classes/data-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/target/classes/data-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/target/classes/schema-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orders/target/classes/schema-mysql.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/java/com/example/products/ProductsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/java/com/example/products/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/java/com/example/products/repo/ProductRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/java/com/example/products/web/ProductHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/java/com/example/products/web/ProductRouter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/resources/data-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/resources/data-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/resources/data-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/resources/schema-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/main/resources/schema-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/main/resources/schema-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/test/java/com/example/products/ProductRoutesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/src/test/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/src/test/resources/application-test.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/target/classes/com/example/products/ProductsApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/target/classes/com/example/products/domain/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/target/classes/com/example/products/repo/ProductRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/target/classes/com/example/products/web/ProductHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/target/classes/com/example/products/web/ProductRouter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/target/classes/data-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/target/classes/data-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/target/classes/data-mysql.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/target/classes/schema-h2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/products/target/classes/schema-mysql.sql" beforeDir="false" afterPath="$PROJECT_DIR$/catalog/target/classes/schema-mysql.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Juankos0714&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Juankos0714/micro.git&quot;,
+    &quot;accountId&quot;: &quot;c96732fd-f258-4e56-a9aa-46f4bb2ef1ef&quot;
+  }
+}</component>
+  <component name="HttpClientOnboardingState">{
+  &quot;isOnboardingCommentShown&quot;: true
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="33LXpa6GID1aeGdyhKNy0nRqmoX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.catalog-api | Create a new item.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.catalog-api | Delete an item.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.catalog-api | Get all items.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.catalog-api | Get item by ID.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.catalog-api | Update an item.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.clients-api | Create a new client.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.clients-api | Delete a client.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.clients-api | Get all clients.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.clients-api | Get client by ID.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.clients-api | Update a client.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sales-api | Create a new purchase.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sales-api | Delete a purchase.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sales-api | Get all purchases.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sales-api | Get purchase by ID.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sales-api | Update a purchase.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.microreactivo-2025 [-q,-pl,customers,-am...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.microreactivo-2025 [spring-boot:run,-pl...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.microreactivo-2025 [spring-boot:run].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.reactive-commerce-platform [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.reactive-commerce-platform [spring-boot:run...].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CatalogApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ClientsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SalesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;com.intellij.ide.FileNotInSourceRootChecker.no.check&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn spring-boot:run -pl customers -am " />
+      <command value="cd customers mvn spring-boot:run " />
+      <command value="mvn spring-boot:run" />
+      <command value="mvn spring-boot:run -pl customers" />
+      <command value="mvn clean INSTALL" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="catalog-api | Create a new item" value="STOPPED" />
+              <entry key="catalog-api | Get all items" value="STOPPED" />
+              <entry key="catalog-api | Get item by ID" value="STOPPED" />
+              <entry key="sales-api | Delete a purchase" value="STOPPED" />
+              <entry key="sales-api | Update a purchase" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="CatalogApplication" value="STOPPED" />
+              <entry key="ClientsApplication" value="STOPPED" />
+              <entry key="SalesApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ClientsApplication">
+    <configuration name="catalog-api | Create a new item" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/catalog/catalog-api.http" executionIdentifier="Create a new item" index="3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="catalog-api | Get all items" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/catalog/catalog-api.http" executionIdentifier="Get all items" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="catalog-api | Get item by ID" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/catalog/catalog-api.http" executionIdentifier="Get item by ID" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="sales-api | Delete a purchase" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/sales/sales-api.http" executionIdentifier="Delete a purchase" index="5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="sales-api | Update a purchase" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/sales/sales-api.http" executionIdentifier="Update a purchase" index="4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="microservicesarle" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="products" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CatalogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="catalog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.biztech.catalog.CatalogApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="clients" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.biztech.clients.ClientsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="sales" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="io.biztech.sales.SalesApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.catalog-api | Create a new item" />
+        <item itemvalue="HTTP Request.catalog-api | Get item by ID" />
+        <item itemvalue="HTTP Request.catalog-api | Get all items" />
+        <item itemvalue="HTTP Request.sales-api | Delete a purchase" />
+        <item itemvalue="HTTP Request.sales-api | Update a purchase" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f09ef61-396a-41ff-b9c2-42a5fbcd4bfb" name="Changes" comment="" />
+      <created>1759097532437</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1759097532437</updated>
+      <workItem from="1759097532437" duration="4403000" />
+      <workItem from="1759103206564" duration="2143000" />
+      <workItem from="1759144842422" duration="852000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

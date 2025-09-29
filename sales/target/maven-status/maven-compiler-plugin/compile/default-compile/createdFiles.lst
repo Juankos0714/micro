@@ -1,0 +1,5 @@
+io\biztech\sales\domain\Purchase.class
+io\biztech\sales\SalesApplication.class
+io\biztech\sales\config\SalesRoutes.class
+io\biztech\sales\repository\PurchaseRepository.class
+io\biztech\sales\handler\SalesHandler.class
